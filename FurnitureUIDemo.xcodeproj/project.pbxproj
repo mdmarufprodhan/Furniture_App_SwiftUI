@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1903C48528CB9D1C00DDBF92 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903C48428CB9D1C00DDBF92 /* HomeScreen.swift */; };
+		1903C48728CBDDF200DDBF92 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903C48628CBDDF200DDBF92 /* DetailsScreen.swift */; };
 		19C6103528C8C3A10099B97E /* FurnitureUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6103428C8C3A10099B97E /* FurnitureUIDemoApp.swift */; };
 		19C6103728C8C3A10099B97E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6103628C8C3A10099B97E /* ContentView.swift */; };
 		19C6103928C8C3A40099B97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C6103828C8C3A40099B97E /* Assets.xcassets */; };
@@ -14,11 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1903C48428CB9D1C00DDBF92 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1903C48628CBDDF200DDBF92 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 		19C6103128C8C3A10099B97E /* FurnitureUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C6103428C8C3A10099B97E /* FurnitureUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureUIDemoApp.swift; sourceTree = "<group>"; };
 		19C6103628C8C3A10099B97E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19C6103828C8C3A40099B97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C6103B28C8C3A40099B97E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19C6104328C8C4220099B97E /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		19C6104428C8C4220099B97E /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1903C48328CB9D0000DDBF92 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1903C48428CB9D1C00DDBF92 /* HomeScreen.swift */,
+				1903C48628CBDDF200DDBF92 /* DetailsScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		19C6102828C8C3A10099B97E = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +66,8 @@
 		19C6103328C8C3A10099B97E /* FurnitureUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1903C48328CB9D0000DDBF92 /* Screen */,
+				19C6104228C8C4170099B97E /* Font */,
 				19C6103428C8C3A10099B97E /* FurnitureUIDemoApp.swift */,
 				19C6103628C8C3A10099B97E /* ContentView.swift */,
 				19C6103828C8C3A40099B97E /* Assets.xcassets */,
@@ -65,6 +82,15 @@
 				19C6103B28C8C3A40099B97E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19C6104228C8C4170099B97E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				19C6104328C8C4220099B97E /* PlayfairDisplay-Bold.ttf */,
+				19C6104428C8C4220099B97E /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1903C48728CBDDF200DDBF92 /* DetailsScreen.swift in Sources */,
 				19C6103728C8C3A10099B97E /* ContentView.swift in Sources */,
 				19C6103528C8C3A10099B97E /* FurnitureUIDemoApp.swift in Sources */,
+				1903C48528CB9D1C00DDBF92 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
